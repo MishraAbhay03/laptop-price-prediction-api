@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://laptop-price-prediction-api-production.up.railway.app/"
+API_URL = "https://laptop-price-prediction-api-production.up.railway.app/predict"
 
 st.set_page_config(
     page_title="Laptop Price Predictor",
